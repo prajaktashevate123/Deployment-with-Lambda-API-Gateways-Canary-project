@@ -16,12 +16,12 @@ Step1. Create a Lambda Function
 
 import json
 
-def lambda_handler(event, context):
-    # TODO implement
-    return {
-        'statusCode': 200,
-        'body': json.dumps('This msessage come from Development server')
-    }
+        def lambda_handler(event, context):
+           # TODO implement
+                return {
+                   'statusCode': 200,
+                   'body': json.dumps('This msessage come from Development server')
+                      }
 
 **4.** Click **Deploy**.
 <img width="940" height="431" alt="image" src="https://github.com/user-attachments/assets/43ef2d2b-c1af-4ab4-8652-0b651392045d" />
